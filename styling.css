@@ -1,0 +1,61 @@
+
+/*addind a black background*/
+
+.topnav{background-color: silver;
+	    overflow: hidden;
+	    float: center; }
+	
+
+/*style the links inside the navigation bar*/
+.topnav a{float: left;
+	      color: #f2f2f2;
+	      text-align: center;
+	      padding: 14px 16px;
+	      text-decoration: none;
+	      font-size: 10px;
+	      margin-right: 50px;}
+
+/*change color on hover*/
+.topnav a:hover{background-color: #ddd;
+	            color: green;}
+
+/*add a color to the active link on hover*/
+.topnav a.active{background-color: #4CAF50;
+                 color: silver;}
+
+
+/*add a backgroud picture*/
+.backgrd{background-image: url('pictures/sea.jpg');
+	     background-repeat:no-repeat;
+         background-size: fit;}
+
+
+.address{background-color:purple;
+	     color: white;
+	     clear:both;
+         text-align:center;
+         padding:5px;
+         position: bottom;}	
+        
+
+.pic{padding: 14px 16px;
+	 float: left;
+	 color: orange;}
+	
+
+.abt a{float: right;}
+.abt a:hover{color: red;}
+	
+
+.lex{height: 100px;
+	 width: 300px;
+	 padding: 50px;
+	 border: 1px solid black;
+	 float: right;
+     margin:20px; 
+     background-color: red;}
+
+.border{float: right;
+background-color: red;
+}     
+	
